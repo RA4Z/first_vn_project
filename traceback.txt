@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 4, in script
+    $ player = Player(texto_do_jogador)
+  File "game/script.rpy", line 4, in <module>
+    $ player = Player(texto_do_jogador)
+  File "game/player.rpy", line 7, in __init__
+    digitais_criminosas: False
+NameError: name 'digitais_criminosas' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 4, in script
+    $ player = Player(texto_do_jogador)
+  File "C:\Users\robertn\Documents\renpy-8.3.3-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\robertn\Documents\renpy-8.3.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 4, in <module>
+    $ player = Player(texto_do_jogador)
+  File "game/player.rpy", line 7, in __init__
+    digitais_criminosas: False
+NameError: name 'digitais_criminosas' is not defined
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.3.3.24111502
+A Testemunha 1.0
+Tue Dec  3 08:43:00 2024
