@@ -249,7 +249,7 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Voltar") action Rollback()
+            # textbutton _("Voltar") action Rollback()
             # textbutton _("Histórico") action ShowMenu('history')
             # textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Automático") action Preference("auto-forward", "toggle")
