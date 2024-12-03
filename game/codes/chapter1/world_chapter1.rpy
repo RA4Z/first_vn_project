@@ -8,7 +8,7 @@ label chapter1_introduction:
     menu:
         "Era uma peça de couro, marrom e desgastada, como algo que já tivesse sido usado por anos."
         "Verificar a bolsa":
-            call chapter1_bolsa from _call_chapter1_bolsa
+            call chapter1_bolsa
 
         "Ignorar e voltar à caminhada":
             "Você ignorou a bolsa e retornou à sua caminhada"

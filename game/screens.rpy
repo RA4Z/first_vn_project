@@ -250,9 +250,9 @@ screen quick_menu():
             yalign 1.0
 
             textbutton _("Voltar") action Rollback()
-            textbutton _("Histórico") action ShowMenu('history')
-            textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Automotivo") action Preference("auto-forward", "toggle")
+            # textbutton _("Histórico") action ShowMenu('history')
+            # textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("Automático") action Preference("auto-forward", "toggle")
             textbutton _("Salvar") action ShowMenu('save')
             textbutton _("Q.Salvar") action QuickSave()
             textbutton _("Q. Carga") action QuickLoad()
