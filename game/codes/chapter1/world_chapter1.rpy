@@ -6,7 +6,6 @@ label chapter1_introduction:
     "À beira da trilha, meio escondida sob a sombra de um arbusto, uma forma escura contrastava com o verde úmido da vegetação. Você parou, intrigado." 
     "O fecho de metal, embora um pouco oxidado, estava firmemente fechado. Parecia ter sido simplesmente deixada ali, esquecida sob a chuva incessante."
     "Era uma bolsa de couro marrom, pequena e desgastada, com a alça jogada sobre o corpo da bolsa. A chuva fina umedecia o couro, escurecendo-o e realçando sua textura enrugada."
-    
 
     menu:
         "O fecho de metal, embora um pouco oxidado, estava firmemente fechado. Parecia ter sido simplesmente deixada ali, esquecida sob a chuva incessante."
@@ -22,9 +21,9 @@ label chapter1_introduction:
 label chapter1_grito:
     "Um grito dilacerante corta o ar, carregado de dor e desespero. É um som humano, cru e visceral, que te faz estremecer."
     "Os pássaros, que cantavam até então, emudecem instantaneamente."
-    "O grito ecoa entre as árvores, vindo de algum lugar além da trilha, e se extingue abruptamente, deixando um silêncio pesado e opressivo."
 
     menu:
+        "O grito ecoa entre as árvores, vindo de algum lugar além da trilha, e se extingue abruptamente, deixando um silêncio pesado e opressivo."
         "Seguir em direção ao grito":
             jump chapter1_seguir_grito
 
@@ -38,8 +37,9 @@ label chapter1_grito:
 label chapter1_seguir_grito:
     "Você se embrenha na mata, seguindo na direção do grito. As árvores se fecham ao seu redor como uma parede verde-escura, bloqueando a pouca luz que ainda filtrava pelas folhas."
     "O ar, denso, úmido e frio, carrega o cheiro de terra molhada e folhas em decomposição"
-    "A trilha some sob o tapete espesso de folhas e galhos úmidos. O silêncio é absoluto, quebrado apenas pelo som da sua própria respiração e o farfalhar das folhas sob seus pés."
+
     menu:
+        "A trilha some sob o tapete espesso de folhas e galhos úmidos. O silêncio é absoluto, quebrado apenas pelo som da sua própria respiração e o farfalhar das folhas sob seus pés."
         "Seguir o caminho silenciosamente":
             jump chapter1_encontro_assassino
 
@@ -56,9 +56,9 @@ label chapter1_encontro_assassino:
     "O som úmido e ritmado da carne sendo cortada te causa náuseas. As roupas da mulher, encharcadas de um vermelho escuro, quase se confundem com a terra úmida."
     "Você recua instintivamente, um passo silencioso para trás. Suas mãos tremem. A respiração fica presa na garganta. O homem, alheio à sua presença, continua seu trabalho macabro."
     "A postura do homem impede que você veja seu rosto. Mas você nota um movimento quase imperceptível – uma leve inclinação da cabeça, um sorriso cruel que se insinua no canto de seus lábios."
-    "Ele parece estar imerso em um ritual macabro, alheio ao mundo ao seu redor."
 
     menu:
+        "Ele parece estar imerso em um ritual macabro, alheio ao mundo ao seu redor."
         "Atacar":
             jump chapter1_atacar    # MORTE
 
@@ -82,10 +82,11 @@ label chapter1_encarar:
     "O assassino, que estava absorto em seu macabro \"trabalho\", interrompe o movimento da lâmina e ergue a cabeça lentamente, como um animal que detecta um predador."
     "Ele para por um segundo, os ombros tensos, e vira a cabeça na sua direção. Você vê o momento exato em que ele percebe sua presença. Não há dúvida; ele te viu."
     "O sorriso que antes curvava seus lábios se desmancha, substituído por uma expressão fria e predatória."
-    "Ele se ergue devagar, a faca pingando sangue em sua mão firme. Cada passo que ele dá em sua direção é medido, metódico, como um caçador encurralando sua presa."
+    
     menu:
+        "Ele se ergue devagar, a faca pingando sangue em sua mão firme. Cada passo que ele dá em sua direção é medido, metódico, como um caçador encurralando sua presa."
         "Correr":
-            "bla bla bla"   # ESPERAR AVANÇO NO FLUXOGRAMA
+            jump chapter1_correr
 
         "Se esconder atrás de uma árvore":
             jump chapter1_esconder_atras_arvore  # MORTE
@@ -95,3 +96,25 @@ label chapter1_encarar:
         
         "Implorar":
             jump chapter1_implorar      # MORTE
+
+
+label chapter1_correr:
+    "Seus pés se movem antes mesmo de sua mente compreender completamente o que está fazendo."
+    "O som das folhas secas e galhos quebrando sob seus passos reverbera pelo ar, ecoando mais alto do que você gostaria."
+    "Atrás de você, o homem reage ao movimento, uma mudança sutil em sua postura que revela que ele agora está focado em você."
+    "A adrenalina domina seu corpo, impulsionando seus movimentos. O bosque que antes parecia um refúgio agora se transforma em um labirinto sufocante."
+    "Cada tronco e cada sombra parecem querer barrar sua fuga, enquanto os sons atrás de você se tornam mais claros  — passos firmes, constantes, metódicos."
+    "Ele não corre como você, mas avança com uma confiança perturbadora, como se já tivesse decidido o desfecho dessa perseguição."
+    "A trilha começa a desaparecer à medida que você avança, e a vegetação mais densa obriga decisões rápidas."
+    "Cada escolha parece um divisor de águas, com o instinto de sobrevivência guiando cada passo enquanto o perseguidor implacável se mantém em seu encalço."
+    "A trilha estreita se fecha à frente, e uma árvore caída bloqueia o caminho como um obstáculo natural."
+    "O tronco é grosso, coberto de musgo, e galhos quebrados se espalham ao redor, tornando difícil saber por onde passar."
+    
+    menu:
+        "Os passos atrás de você soam mais próximos, forçando uma decisão rápida."
+        "Pular por cima da árvore":
+            "bla bla bla"   # ESPERAR AVANÇO NO FLUXOGRAMA
+
+        "Desviar pelo lado":
+            "bla bla bla"   # ESPERAR AVANÇO NO FLUXOGRAMA
+

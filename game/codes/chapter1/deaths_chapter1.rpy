@@ -33,7 +33,7 @@ label chapter1_ficar_imovel:
 
 label chapter1_implorar:
     "As palavras escapam de sua boca antes que você consiga controlá-las."
-    player_name "Por favor, não..."
+    player_name "Por favor, não... Eu não vou falar nada, eu juro!"
     "Sua voz soa tremida, quase engasgada"
     "Enquanto o assassino continua avançando, sua expressão tão imutável quanto uma máscara de mármore."
     "Ele para a poucos passos de distância, inclinando a cabeça como se estivesse avaliando sua súplica"
