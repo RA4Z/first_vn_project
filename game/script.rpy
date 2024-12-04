@@ -3,10 +3,9 @@
     $ player_name = Character(texto_do_jogador)
     $ player = Player(texto_do_jogador)
 
-    "[player.nome] sempre valorizou o silêncio. Não o tipo desconfortável que paira entre estranhos, mas aquele que só a natureza pode oferecer."
-    "Era um homem comum, introvertido por escolha, que encontrava na solitude sua verdadeira paz."
-    "Como designer gráfico freelancer, passava longas horas diante da tela do computador, entre prazos apertados e clientes exigentes."
-    "Mas quando a pressão do trabalho se tornava insuportável, ele tinha um refúgio: o parque."
+    "O zumbido constante da tela do computador era a trilha sonora da vida de [player.nome]. Designer gráfico freelancer, ele se afogava em prazos apertados e clientes exigentes."
+    "A interação humana era um fardo, um teatro de máscaras que ele evitava sempre que possível."
+    "Sua verdadeira paz estava no silêncio sussurrante das árvores do parque, seu único refúgio."
     call chapter1_introduction
 
     if player.condicoes.vivo:   # Verificar se o jogador está vivo para continuar a história

@@ -41,3 +41,11 @@ label chapter1_implorar:
     "Mas logo é esmagada.\nSem uma palavra, ele ergue a lâmina, e o brilho frio do aço é a última coisa que você vê."
     $ player.condicoes.vivo = False
     return
+
+label chapter1_desmaiar:
+    "A escuridão te envolve. Você cai no chão, inconsciente, mas ainda com uma vaga consciência do que acontece ao seu redor"
+    "Você ouve sons abafados - o raspar da lâmina, o som úmido de carne sendo cortada, um murmúrio gutural que te arrepia."
+    "Você tenta abrir os olhos, mas suas pálpebras parecem pesadas como chumbo"
+    "Ente o frio da terra úmida contra seu rosto. O cheiro metálico do sangue invade suas narinas, sufocando você. Então, sente uma dor aguda..."
+    $ player.condicoes.vivo = False
+    return

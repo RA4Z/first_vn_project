@@ -1,7 +1,4 @@
 label chapter1_introduction:
-    "O zumbido constante da tela do computador era a trilha sonora da vida de [player.nome]. Designer gráfico freelancer, ele se afogava em prazos apertados e clientes exigentes."
-    "A interação humana era um fardo, um teatro de máscaras que ele evitava sempre que possível."
-    "Sua verdadeira paz estava no silêncio sussurrante das árvores do parque, seu único refúgio."
     "Hoje, como sempre, ele caminhava pelas trilhas familiares, buscando a serenidade que só a natureza podia oferecer."
     "O ar fresco e úmido do parque preencheu seus pulmões. A garoa fina, quase imperceptível, acariciava seu rosto enquanto ele caminhava sob as árvores imponentes."
     "A luz do sol poente, filtrada pela folhagem, criava um mosaico de sombras e tons dourados no chão coberto de folhas úmidas."
@@ -20,7 +17,6 @@ label chapter1_introduction:
             "Você ignorou a bolsa e retornou à sua caminhada"
 
     jump chapter1_grito
-    return
 
 
 label chapter1_grito:
@@ -71,9 +67,10 @@ label chapter1_encontro_assassino:
             jump chapter1_encarar
 
         "Desmaiar":
-            "A escuridão te envolve. Você cai no chão, inconsciente, mas ainda com uma vaga consciência do que acontece ao seu redor"   # NO FLUXOGRAMA
+            jump chapter1_desmaiar  # MORTE
 
         "Gritar":
+            "O grito escapa de sua garganta antes que você consiga detê-lo, ecoando alto e claro pelo bosque. Por um breve momento, o som parece congelar o tempo."
             jump chapter1_encarar
 
         "Se Esconder":
@@ -82,7 +79,6 @@ label chapter1_encontro_assassino:
     return
 
 label chapter1_encarar:
-    "O grito escapa de sua garganta antes que você consiga detê-lo, ecoando alto e claro pelo bosque. Por um breve momento, o som parece congelar o tempo."
     "O assassino, que estava absorto em seu macabro \"trabalho\", interrompe o movimento da lâmina e ergue a cabeça lentamente, como um animal que detecta um predador."
     "Ele para por um segundo, os ombros tensos, e vira a cabeça na sua direção. Você vê o momento exato em que ele percebe sua presença. Não há dúvida; ele te viu."
     "O sorriso que antes curvava seus lábios se desmancha, substituído por uma expressão fria e predatória."
