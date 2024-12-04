@@ -34,6 +34,7 @@ label chapter1_bolsa:
                 $ escolhas_feitas += 1
                 "Você pega o celular. O metal frio e liso do aparelho contrasta com a textura úmida da bolsa. A tela está escura, refletindo vagamente o céu nublado."
                 "Você pressiona o botão de ligar. Nada. Tenta novamente, segurando o botão por mais tempo. Silêncio. Sem bateria."
-                "Uma onda de frustração te percorre. O celular, que poderia conter alguma pista sobre o paradeiro de Julia Lynder, é inútil." #COLOCAR CONDIÇÃO SE CARTEIRA FOR CONHECIDA
+                if "carteira" in opcoes_escolhidas:
+                    "Uma onda de frustração te percorre. O celular, que poderia conter alguma pista sobre o paradeiro de Julia Lynder, é inútil."
 
     return

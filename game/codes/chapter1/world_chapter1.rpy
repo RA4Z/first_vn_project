@@ -1,19 +1,17 @@
 label chapter1_introduction:
-    "O zumbido constante da tela do computador era a trilha sonora da vida de (nome Jogador). Designer gráfico freelancer, ele se afogava em prazos apertados e clientes exigentes."
+    "O zumbido constante da tela do computador era a trilha sonora da vida de [player.nome]. Designer gráfico freelancer, ele se afogava em prazos apertados e clientes exigentes."
     "A interação humana era um fardo, um teatro de máscaras que ele evitava sempre que possível."
     "Sua verdadeira paz estava no silêncio sussurrante das árvores do parque, seu único refúgio."
     "Hoje, como sempre, ele caminhava pelas trilhas familiares, buscando a serenidade que só a natureza podia oferecer."
     "O ar fresco e úmido do parque preencheu seus pulmões. A garoa fina, quase imperceptível, acariciava seu rosto enquanto ele caminhava sob as árvores imponentes."
     "A luz do sol poente, filtrada pela folhagem, criava um mosaico de sombras e tons dourados no chão coberto de folhas úmidas."
     "O cheiro de terra molhada e o farfalhar suave das folhas sob seus pés eram os únicos sons, criando uma atmosfera de tranquilidade quase irreal."
-    "Algo interrompeu o ritmo dos seus passos. À beira da trilha, meio escondida sob um arbusto, uma bolsa de couro marrom repousava no chão úmido."
-    "Algo interrompeu o ritmo dos seus passos. Um objeto fora de lugar, uma anomalia naquela paisagem familiar."
     "À beira da trilha, meio escondida sob a sombra de um arbusto, uma forma escura contrastava com o verde úmido da vegetação. Você parou, intrigado." 
     "O fecho de metal, embora um pouco oxidado, estava firmemente fechado. Parecia ter sido simplesmente deixada ali, esquecida sob a chuva incessante."
+    "Era uma bolsa de couro marrom, pequena e desgastada, com a alça jogada sobre o corpo da bolsa. A chuva fina umedecia o couro, escurecendo-o e realçando sua textura enrugada."
     
 
     menu:
-        "Era uma bolsa de couro marrom, pequena e desgastada, com a alça jogada sobre o corpo da bolsa. A chuva fina umedecia o couro, escurecendo-o e realçando sua textura enrugada."
         "O fecho de metal, embora um pouco oxidado, estava firmemente fechado. Parecia ter sido simplesmente deixada ali, esquecida sob a chuva incessante."
         "Verificar a bolsa":
             call chapter1_bolsa
@@ -85,7 +83,7 @@ label chapter1_encontro_assassino:
 
 label chapter1_encarar:
     "O grito escapa de sua garganta antes que você consiga detê-lo, ecoando alto e claro pelo bosque. Por um breve momento, o som parece congelar o tempo."
-    "O assassino, que estava absorto em seu macabro "trabalho", interrompe o movimento da lâmina e ergue a cabeça lentamente, como um animal que detecta um predador."
+    "O assassino, que estava absorto em seu macabro \"trabalho\", interrompe o movimento da lâmina e ergue a cabeça lentamente, como um animal que detecta um predador."
     "Ele para por um segundo, os ombros tensos, e vira a cabeça na sua direção. Você vê o momento exato em que ele percebe sua presença. Não há dúvida; ele te viu."
     "O sorriso que antes curvava seus lábios se desmancha, substituído por uma expressão fria e predatória."
     "Ele se ergue devagar, a faca pingando sangue em sua mão firme. Cada passo que ele dá em sua direção é medido, metódico, como um caçador encurralando sua presa."
@@ -94,7 +92,7 @@ label chapter1_encarar:
             "bla bla bla"   # ESPERAR AVANÇO NO FLUXOGRAMA
 
         "Se esconder atrás de uma árvore":
-            jump chapter1_esconder_atras_arvore
+            jump chapter1_esconder_atras_arvore  # MORTE
         
         "Ficar Imóvel":
             jump chapter1_ficar_imovel  # MORTE
