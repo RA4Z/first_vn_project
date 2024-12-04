@@ -1,11 +1,10 @@
 label chapter1_atacar:
-    "Cautelosamente você se aproxima dele para tentar atacá-lo"
-    "Conforme você se aproxima dele, a tensão aumenta"
-    "Você está tão concentrado na figura à sua frente que se distrai do mundo à sua volta"
-    "Que acaba por tropeçar em um buraco no chão, torcendo o tornozelo e fazendo um barulho"
-    "Lentamente ele olha em sua direção e sorri"
-    "Ele se aproxima de você com uma faca grande nas mãos"
-    "Você percebe que esse é o fim de sua vida"
+    "Você avança, tentando golpear o homem com um soco desajeitado."
+    "Mas ele é mais rápido. Ele se vira, a lâmina brilhando na luz fraca. Com um movimento rápido e preciso, ele a enterra em seu peito."
+    "Você sente uma dor lancinante, seguida por uma onda de calor e fraqueza."
+    "A visão escurece. O mundo se dissolve em um turbilhão de sons confusos e sensações distantes."
+    "O peso do seu próprio corpo te arrasta para o chão. A terra úmida e fria te envolve."
+    "Você tosse, sentindo o gosto metálico do sangue na garganta. A escuridão te engole por completo."
     $ player.condicoes.vivo = False
     return
 
